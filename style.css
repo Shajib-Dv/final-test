@@ -59,3 +59,20 @@ li a:hover {
   text-align: center;
   margin: 20px 20%;
 }
+
+.btn {
+  height: 100px;
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-btn,
+.start-btn {
+  margin: 10px;
+  font-size: 30px;
+  background-color: gray;
+  border-radius: 30px;
+  padding: 10px;
+}
