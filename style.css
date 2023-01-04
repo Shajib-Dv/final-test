@@ -4,10 +4,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
 }
 
 nav {
-  width: 100vw;
+  width: 100%;
   min-height: 50px;
   background-color: gray;
 }
@@ -26,7 +27,7 @@ li {
 
 li a {
   text-decoration: none;
-  color: white;
+  color: whitesmoke;
   font-size: 20px;
   margin-top: 10px;
   padding: 5px 20px;
@@ -35,4 +36,26 @@ li a:hover {
   border: none;
   border-radius: 20px;
   background-color: lightslategray;
+}
+
+.bg-img {
+  min-height: 100vw;
+  background-image: url("bg.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.bg-img h1 {
+  color: black;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.bg-img p {
+  color: rgb(0, 5, 9);
+  font-size: 30px;
+  text-align: center;
+  margin: 20px 20%;
 }
